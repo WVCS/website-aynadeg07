@@ -1,3 +1,36 @@
-body {
+@charset "utf-8";
 
+body{
+	background-color: lightcyan;
+}
+
+img {
+	width: 400px;
+	border: 15px dotted gold;
+	border-radius: 50%;
+}
+img:hover {
+	border: 25px dotted #67DFDE;
+}
+h1 {
+
+  text-decoration-line: overline underline;
+  text-decoration-color: blue;
+
+}
+ul {
+	list-style-type: none;
+	background-color: aqua;
+	width: 200px
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	color: darkblue;
+	padding: 8px 16px;
+}
+li a:hover {
+	background-color: darkcyan;
+	color: ghostwhite;
 }
